@@ -15,7 +15,7 @@ int main() {
     return 0;
 }
 
-int swap(int *a, int *b) { // we want to swap the variables using pointers.
+int swap(int &a, int &b) { // we want to swap the variables using pointers.
     int temp = a;
     a = b;
     b = temp;
